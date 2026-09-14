@@ -8,6 +8,7 @@ A machine learning system that estimates optimal nightly rental prices for short
 - **Interactive Web UI**: Built with Streamlit for seamless user inputs and real-time inference.
 
 ## Project Directory Structure
+'''text
 ├── AB_NYC_2019.csv            # Raw NYC Airbnb dataset
 ├── Airbnb_task1.ipynb         # Task 1: Data cleaning, feature engineering & preprocessing pipeline
 ├── AIRBNB_TASK2.ipynb         # Task 2: Model training, evaluation, and GridSearchCV optimization
