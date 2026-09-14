@@ -27,3 +27,10 @@ A machine learning system that estimates optimal nightly rental prices for short
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   
+## Some demonstrations:
+
+<img width="799" height="875" alt="image" src="https://github.com/user-attachments/assets/d7b78afa-3b4f-4251-b47e-d06cf486dccd" />
+
+<img width="808" height="865" alt="image" src="https://github.com/user-attachments/assets/24d54e6b-0b79-42f8-95b9-6e9c477cf23f" />
+
