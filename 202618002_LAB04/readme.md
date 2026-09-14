@@ -23,7 +23,7 @@ A machine learning system that estimates optimal nightly rental prices for prope
 ├── app.py                     # Streamlit web application for real-time inference
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
-
+```
 Baseline Comparison:
 
 Tree-based models (XGBoost, Random Forest, LightGBM) drastically outperformed linear models by capturing non-linear geographic boundaries and interaction effects.
