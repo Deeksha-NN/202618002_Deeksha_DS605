@@ -1,6 +1,8 @@
 # NYC Airbnb Price Prediction Platform
 
-A machine learning system that estimates optimal nightly rental prices for short-term properties across New York City's five boroughs.
+Predicting short-term rental pricing in a dynamic market like New York City presents unique challenges due to sparse text descriptions, wide spatial variations, and extreme luxury outliers. The primary objective was to build a robust regression pipeline that generalizes well across everyday listings while providing an accessible evaluation tool for prospective hosts.
+
+A machine learning system that estimates optimal nightly rental prices for properties across New York City's five boroughs.
 
 ## Features
 - **Geospatial & Text Features**: Incorporates Haversine distance calculations and TF-IDF text analysis of listing titles.
@@ -21,6 +23,15 @@ A machine learning system that estimates optimal nightly rental prices for short
 ├── app.py                     # Streamlit web application for real-time inference
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
+
+Baseline Comparison:
+
+Tree-based models (XGBoost, Random Forest, LightGBM) drastically outperformed linear models by capturing non-linear geographic boundaries and interaction effects.
+
+Evaluation Metrics:
+$R^2$ Score (0.63): The final grid-tuned XGBoost model explains approximately 63% of the variance in NYC listing prices.
+MAE ($53.21): For standard everyday listings, predictions typically miss the actual market price by roughly $53, representing strong real-world utility.
+RMSE ($199.60): Reflected the disproportionate mathematical penalty inflicted by extreme multi-thousand-dollar luxury penthouses and townhomes present in the tail of the dataset.
 
 ## Installation & Running Locally
 
