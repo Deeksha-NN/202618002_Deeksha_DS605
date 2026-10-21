@@ -1,0 +1,5 @@
+Model,Features,Correct,Test Accuracy (%)
+KNN (K=1),40,79,98.75
+Linear SVM,100,79,98.75
+RBF SVM,40,79,98.75
+Logistic Regression,84,78,97.5

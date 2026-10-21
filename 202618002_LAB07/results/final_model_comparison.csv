@@ -1,0 +1,8 @@
+Model,Features,Correct,Test Accuracy (%)
+Raw Pixels + Euclidean,10304,79,98.75
+PCA + Euclidean,99,79,98.75
+PCA + Weighted Euclidean (alpha=0.25),99,79,98.75
+KNN (K=1),40,79,98.75
+Linear SVM,100,79,98.75
+RBF SVM,40,79,98.75
+Logistic Regression,84,78,97.5

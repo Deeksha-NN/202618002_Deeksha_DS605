@@ -1,0 +1,6 @@
+Item,KB
+Original uint8 images,3220.0
+PCA coefficients float32,123.75
+PCA basis float32,3984.75
+Mean face float32,40.25
+Total PCA,4148.75
