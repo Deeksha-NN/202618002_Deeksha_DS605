@@ -1,0 +1,6 @@
+Model,Train Accuracy,Accuracy,Precision,Recall,F1,Train Time (s),Predict Time (s)
+Manual Decision Tree,0.9481,0.9444,0.9084,0.9754,0.9407,1.8393,0.0005
+Sklearn Decision Tree,0.9481,0.9444,0.9084,0.9754,0.9407,0.0051,0.0003
+Manual Linear SVM,0.8664,0.9074,0.9533,0.8361,0.8908,0.66,0.0
+Sklearn Linear SVM,0.8664,0.9074,0.9533,0.8361,0.8908,0.0285,0.0057
+RBF SVM,0.9991,0.9963,0.9919,1.0,0.9959,0.0073,0.0024
